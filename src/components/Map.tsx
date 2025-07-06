@@ -5,6 +5,7 @@ import {
   TileLayer,
   GeoJSON,
 } from 'react-leaflet'
+import { useScores } from '../hooks/useScores'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
@@ -16,7 +17,8 @@ L.Icon.Default.mergeOptions({
   shadowUrl:    require('leaflet/dist/images/marker-shadow.png'),
 })
 
-export default function Map() {
+interface MapProps { weight: number }
+export default function Map({ weight }: MapProps) {
   const [tubeStops, setTubeStops] = useState<any>(null)
 
   useEffect(() => {
@@ -25,6 +27,9 @@ export default function Map() {
       .then(setTubeStops)
       .catch(console.error)
   }, [])
+
+  // compute our grid of scored cells
+  const scoreGrid = useScores(tubeStops, weight)
 
   return (
     <MapContainer
@@ -36,6 +41,23 @@ export default function Map() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="© OpenStreetMap contributors"
       />
+
+      {/* Choropleth: color each cell by score */}
+      {scoreGrid && (
+        <GeoJSON
+          data={scoreGrid as any}
+          style={(feature: any) => {
+            const s = feature.properties.score
+            // 0 → red (0°), 1 → green (120°)
+            const hue = Math.round(s * 120)
+            return {
+              fillColor: `hsl(${hue}, 100%, 50%)`,
+              fillOpacity: 0.4,
+              weight: 0,
+            }
+          }}
+        />
+      )}
 
       {tubeStops && (
         <GeoJSON
