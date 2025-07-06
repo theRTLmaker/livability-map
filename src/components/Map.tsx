@@ -13,24 +13,54 @@ import L from 'leaflet'
 delete L.Icon.Default.prototype._getIconUrl
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  iconUrl:      require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl:    require('leaflet/dist/images/marker-shadow.png'),
+  iconUrl:       require('leaflet/dist/images/marker-icon.png'),
+  shadowUrl:     require('leaflet/dist/images/marker-shadow.png'),
 })
 
-interface MapProps { weight: number }
+interface MapProps {
+  weights: { tube: number; fav: number; big: number }
+}
 
-export default function Map({ weight }: MapProps) {
+export default function Map({ weights }: MapProps) {
   const [tubeStops, setTubeStops] = useState<any>(null)
+  const [favSupers, setFavSupers] = useState<any>(null)
+  const [bigSupers, setBigSupers] = useState<any>(null)
 
   useEffect(() => {
-    fetch('/data/tube-stops.geojson')
-      .then((r) => r.json())
-      .then(setTubeStops)
-      .catch(console.error)
+    type Setter = (data: any) => void
+
+    const sources: { url: string; setter: Setter }[] = [
+      { url: '/data/tube-stops.geojson',       setter: setTubeStops },
+      { url: '/data/fav-supermarkets.geojson', setter: setFavSupers },
+      { url: '/data/big-chains.geojson',       setter: setBigSupers },
+    ]
+
+    const EMPTY_FC = { type: 'FeatureCollection', features: [] }
+
+    sources.forEach(({ url, setter }) => {
+      fetch(url)
+        .then(res => {
+          if (!res.ok) {
+            console.warn(`⚠️  ${url} returned ${res.status}, using empty GeoJSON`)
+            return EMPTY_FC
+          }
+          return res.json().catch(() => {
+            console.warn(`⚠️  Failed parsing JSON from ${url}, using empty GeoJSON`)
+            return EMPTY_FC
+          })
+        })
+        .then(setter)
+        .catch(err => {
+          console.error(`❌  Error fetching ${url}:`, err)
+          setter(EMPTY_FC)
+        })
+    })
   }, [])
 
-  // compute our grid of scored cells
-  const scoreGrid = useScores(tubeStops, weight)
+  const scoreGrid = useScores(
+    { tubeStops, fav: favSupers, big: bigSupers },
+    weights
+  )
 
   return (
     <MapContainer
@@ -48,23 +78,8 @@ export default function Map({ weight }: MapProps) {
         <GeoJSON
           data={scoreGrid as any}
           style={(feat: any) => {
-            const { distance, hasPOI } = feat.properties
-            // station-in-cell always green
-            if (hasPOI) {
-              return { fillColor: 'hsl(120,100%,50%)', fillOpacity: 0.5, weight: 0 }
-            }
-            const walkMins = (distance * 1000) / 83.3
-            let hue = 0
-
-            if (walkMins <= 5) {
-              hue = 120           // green
-            } else if (walkMins <= 10) {
-              // 5→10 min ramp green→yellow (120→60)
-              hue = 120 - ((walkMins - 5) / 5) * 60
-            } else {
-              hue = 0             // red
-            }
-
+            const s = feat.properties.score
+            const hue = Math.round(s * 120) // 0=red →120=green
             return {
               fillColor: `hsl(${hue},100%,50%)`,
               fillOpacity: 0.4,
@@ -74,17 +89,29 @@ export default function Map({ weight }: MapProps) {
         />
       )}
 
-      {/* tube stops on top */}
+      {/* raw POI dots */}
       {tubeStops && (
         <GeoJSON
           data={tubeStops}
           pointToLayer={(_, latlng) =>
             L.circleMarker(latlng, { radius: 4, color: '#0066cc' })
           }
-          onEachFeature={(feat, layer) => {
-            const name = (feat.properties as any)?.name
-            if (name) layer.bindPopup(name)
-          }}
+        />
+      )}
+      {favSupers && (
+        <GeoJSON
+          data={favSupers}
+          pointToLayer={(_, latlng) =>
+            L.circleMarker(latlng, { radius: 4, color: '#22c55e' })
+          }
+        />
+      )}
+      {bigSupers && (
+        <GeoJSON
+          data={bigSupers}
+          pointToLayer={(_, latlng) =>
+            L.circleMarker(latlng, { radius: 4, color: '#f59e0b' })
+          }
         />
       )}
     </MapContainer>

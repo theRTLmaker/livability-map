@@ -1,0 +1,3087 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-07-06T19:12:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26618618",
+        "addr:city": "London",
+        "addr:housenumber": "143-151",
+        "addr:postcode": "NW1 7JX",
+        "addr:street": "Camden High Street",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/camden-town-simply-food-291",
+        "fhrs:id": "425546",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 12:00-18:00",
+        "shop": "supermarket",
+        "source:addr": "FSA Food Hygiene Rating Scheme open data",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1420408,
+          51.53781
+        ]
+      },
+      "id": "node/26618618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26819169",
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "W2 6ES",
+        "addr:street": "Porchester Road",
+        "alt_name": "Waitrose Bayswater",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "entrance": "main",
+        "fhrs:confidence_management": "0",
+        "fhrs:hygiene": "5",
+        "fhrs:id": "411125",
+        "fhrs:local_authority_id": "00189/0038/1/000",
+        "fhrs:rating": "5",
+        "fhrs:structural": "5",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Sa 07:30-22:00; Su 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "source:addr": "FSA Food Hygiene Ratings Database",
+        "source:postcode": "FSA Food Hygiene Ratings Database",
+        "website": "https://www.waitrose.com/find-a-store/bayswater"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1872577,
+          51.5163445
+        ]
+      },
+      "id": "node/26819169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/49311845",
+        "addr:postcode": "EN5 5XY",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose",
+        "fhrs:id": "756930",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "operator": "Waitrose & Partners",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/barnet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2039214,
+          51.6559569
+        ]
+      },
+      "id": "node/49311845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/243583757",
+        "addr:city": "London",
+        "addr:housenumber": "106-112",
+        "addr:postcode": "SE26 5JX",
+        "addr:street": "Sydenham Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1598792",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/sydenham/sydenham-road-106/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.04804,
+          51.4252759
+        ]
+      },
+      "id": "node/243583757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/243584788",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "237-249",
+        "addr:postcode": "SE6 3DS",
+        "addr:street": "Southend Lane",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2025-06-27",
+        "currency:GBP": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "255054",
+        "level": "0",
+        "name": "Lidl",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "source": "survey",
+        "toilets": "no",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/bellingham/southend-lane/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0262991,
+          51.4263195
+        ]
+      },
+      "id": "node/243584788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/254383447",
+        "addr:city": "London",
+        "addr:postcode": "N1 5LG",
+        "addr:street": "Hoxton Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa,PH 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "was:name": "Iceland",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hoxton-street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0802413,
+          51.532981
+        ]
+      },
+      "id": "node/254383447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/285921198",
+        "addr:city": "London",
+        "addr:housename": "Cherry Tree Walk Centre",
+        "addr:postcode": "EC1Y 8NX",
+        "addr:street": "Cherry Tree Walk",
+        "branch": "Barbican",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose",
+        "fhrs:id": "416999",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-21:00; Su 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "source": "Yahoo! and personal knowledge",
+        "website": "https://www.waitrose.com/find-a-store/barbican",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0921222,
+          51.5222888
+        ]
+      },
+      "id": "node/285921198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/300612033",
+        "addr:city": "Beckenham",
+        "addr:housenumber": "44",
+        "addr:postcode": "BR3 1AY",
+        "addr:street": "High Street",
+        "alt_name": "Marks & Spencer Beckenham",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/beckenham-simply-food-2574",
+        "fhrs:authority": "Bromley",
+        "fhrs:id": "357229",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-20:00; Su 10:30-16:30",
+        "operator": "Marks & Spencer",
+        "phone": "+44 20 8663 0682",
+        "shop": "supermarket",
+        "source": "survey;https://ratings.food.gov.uk/OpenDataFiles/FHRS505en-GB.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0253944,
+          51.4093252
+        ]
+      },
+      "id": "node/300612033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/305084453",
+        "addr:city": "Wembley",
+        "addr:housename": "Stadium Retail Park",
+        "addr:housenumber": "3",
+        "addr:postcode": "HA9 8TS",
+        "addr:street": "Wembley Park Drive",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "532748",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wembley/unit-3-stadium-retail-park/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2810103,
+          51.5611699
+        ]
+      },
+      "id": "node/305084453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/317291389",
+        "addr:city": "London",
+        "addr:housenumber": "55",
+        "addr:postcode": "W1T 2EQ",
+        "addr:street": "Tottenham Court Road",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/tottenham-court-rd-simply-food-4750",
+        "internet_access": "no",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Fr 07:30-21:00; Sa 08:00-21:00; Su 12:00-18:00",
+        "payment:american_express": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "wheelchair:description": "This is not just access, this is M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1336008,
+          51.5196423
+        ]
+      },
+      "id": "node/317291389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411095362",
+        "brand": "Waitrose & Partners",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "name": "Little Waitrose",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/west-hampstead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.192598,
+          51.5515632
+        ]
+      },
+      "id": "node/411095362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/420738697",
+        "addr:city": "Bromley",
+        "addr:country": "GB",
+        "addr:housenumber": "124-126",
+        "addr:postcode": "BR1 1EZ",
+        "addr:street": "High Street",
+        "air_conditioning": "yes",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2025-05-22",
+        "currency:GBP": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "1094617",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa,PH 08:00-21:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "stroller": "yes",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/bromley/122-126-high-street/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0148911,
+          51.4040111
+        ]
+      },
+      "id": "node/420738697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/453670078",
+        "addr:city": "London",
+        "addr:housename": "Westfield Centre",
+        "addr:postcode": "W12 7GA",
+        "branch": "Westfiled, White City",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "check_date": "2025-05-05",
+        "check_date:opening_hours": "2022-10-29",
+        "fhrs:id": "346314",
+        "level": "-2",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 12:00-18:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/westfield-london",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2191224,
+          51.506411
+        ]
+      },
+      "id": "node/453670078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/528136443",
+        "addr:city": "London",
+        "addr:housenumber": "35-39",
+        "addr:postcode": "N8 8DU",
+        "addr:street": "The Broadway",
+        "branch": "Little Waitrose Crouch End",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "fhrs:authority": "Haringey",
+        "fhrs:id": "423069",
+        "fhrs:local_authority_id": "PI/000133639",
+        "internet_access": "wlan",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-21:00; Su 12:00-18:00",
+        "operator": "Waitrose & Partners",
+        "ref": "835",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.waitrose.com/find-a-store/crouch-end",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1239343,
+          51.5795019
+        ]
+      },
+      "id": "node/528136443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/535936545",
+        "addr:city": "London",
+        "addr:housename": "Tottenham Hale Retail Park",
+        "addr:postcode": "N15 4QD",
+        "addr:street": "Broad Lane",
+        "addr:unit": "Unit 6",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:authority": "Haringey",
+        "fhrs:id": "422069",
+        "fhrs:local_authority_id": "PI/000047790",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/tottenham/tottenham-hale-retail-park-ferry-rd-4b/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0610958,
+          51.5868126
+        ]
+      },
+      "id": "node/535936545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/596786062",
+        "addr:city": "London",
+        "addr:housenumber": "199",
+        "addr:postcode": "NW3 6NN",
+        "addr:street": "Finchley Road",
+        "alt_name": "Waitrose John Barnes",
+        "brand": "Waitrose & Partners",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "contact:website": "https://www.waitrose.com/bf_home/bf/174.html",
+        "name": "Waitrose",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "phone": "+44 20 7624 0453",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/john-barnes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.179645,
+          51.5464243
+        ]
+      },
+      "id": "node/596786062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/610453006",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "West 12 Shopping Centre",
+        "addr:housenumber": "114-125",
+        "addr:postcode": "W12 8PP",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1055884",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "payment:american_express": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/shepherds-bush/shepherds-bush-green/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2185824,
+          51.5032216
+        ]
+      },
+      "id": "node/610453006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/647005382",
+        "addr:city": "London",
+        "addr:housename": "Unit 23 The Circle St Pancras International Station",
+        "addr:postcode": "N1C 4QL",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "level": "0",
+        "name": "M&S Food",
+        "shop": "supermarket",
+        "source": "receipt from visit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1267022,
+          51.5326493
+        ]
+      },
+      "id": "node/647005382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/675748021",
+        "addr:city": "Enfield",
+        "addr:housenumber": "107",
+        "addr:postcode": "EN2 6TR",
+        "addr:street": "Cecil Road",
+        "alt_name": "LIDL Enfield Town",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "317649",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:postcode": "FHRS data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/enfield/cecil-road/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0814561,
+          51.6504896
+        ]
+      },
+      "id": "node/675748021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/692162503",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "check_date": "2025-06-06",
+        "name": "Amazon Fresh",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "payment:cash": "no",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0848775,
+          51.5125242
+        ]
+      },
+      "id": "node/692162503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/712768510",
+        "addr:city": "London",
+        "addr:housenumber": "174",
+        "addr:postcode": "EC1V 4DE",
+        "addr:street": "St. John Street",
+        "addr:suburb": "Islington",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "fhrs:id": "417441",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Fr 07:30-22:00, Sa 07:30-21:00, Su 12:00-18:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.waitrose.com/find-a-store/clerkenwell",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1027254,
+          51.524152
+        ]
+      },
+      "id": "node/712768510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/835785497",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "name": "Little Waitrose",
+        "official_name": "Waitrose & Partners",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/cheam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2163434,
+          51.3587154
+        ]
+      },
+      "id": "node/835785497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/842436325",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/archway-foodhall-980",
+        "name": "M&S Food",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-21:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1354683,
+          51.5651738
+        ]
+      },
+      "id": "node/842436325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1112279406",
+        "addr:city": "London",
+        "addr:postcode": "SW11 1PW",
+        "addr:street": "St John's Rd",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "fhrs:id": "1571491",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/clapham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1677865,
+          51.4626128
+        ]
+      },
+      "id": "node/1112279406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1312678769",
+        "addr:city": "Pinner",
+        "addr:country": "GB",
+        "addr:housenumber": "69",
+        "addr:postcode": "HA5 3HZ",
+        "addr:street": "Bridge Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "276932",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/pinner/bridge-street-69/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3849345,
+          51.5953653
+        ]
+      },
+      "id": "node/1312678769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1321888824",
+        "addr:city": "London",
+        "addr:housenumber": "41-42",
+        "addr:postcode": "E15 1XE",
+        "addr:street": "The Mall",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "checkfirst:suggested:name": "Lidl",
+        "fhrs:id": "864084",
+        "fhrs:local_authority_id": "15/00268/FOOD",
+        "name": "Lidl",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/stratford/41-42-stratford-centre/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0010622,
+          51.5417094
+        ]
+      },
+      "id": "node/1321888824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1375514254",
+        "addr:city": "Twickenham",
+        "addr:housenumber": "50",
+        "addr:postcode": "TW1 3RJ",
+        "addr:street": "London Road",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "check_date": "2024-02-01",
+        "check_date:opening_hours": "2021-09-03",
+        "fhrs:id": "1574216",
+        "name": "Waitrose & Partners",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Fr 07:30-21:00; Sa 08:00-20:00; Su 10:00-16:00",
+        "operator": "Waitrose & Partners",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "toilets": "no",
+        "website": "https://www.waitrose.com/find-a-store/twickenham",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3289565,
+          51.4484848
+        ]
+      },
+      "id": "node/1375514254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1490044833",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2024-12-18",
+        "level": "0",
+        "name": "Lidl",
+        "old_name": "Primark",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/harrow/st-anns-road/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3369249,
+          51.580285
+        ]
+      },
+      "id": "node/1490044833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1569415538",
+        "addr:city": "Kingston upon Thames",
+        "addr:country": "GB",
+        "addr:housename": "Waitrose John Lewis",
+        "addr:postcode": "KT1 1TE",
+        "addr:street": "Wood Street",
+        "alt_name": "Waitrose Kingston",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "check_date": "2025-06-17",
+        "contact:phone": "+44 20 8547 3457",
+        "contact:website": "https://www.waitrose.com/find-a-store/kingston",
+        "fhrs:id": "1385976",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-We: 08:30-19:00; Th: 08:30-21:00; Fr 08:30-20:00; Sa: 08:00-19:00; Su: 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3058558,
+          51.4111573
+        ]
+      },
+      "id": "node/1569415538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1640218897",
+        "addr:city": "Enfield",
+        "addr:housename": "Palace Green Shopping Centre",
+        "addr:housenumber": "8-12",
+        "addr:postcode": "EN2 6SN",
+        "addr:street": "Palace Gardens",
+        "alt_name": "Waitrose Enfield",
+        "branch": "Enfield",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose",
+        "fhrs:authority": "Enfield",
+        "fhrs:id": "316948",
+        "fhrs:local_authority_id": "PI/000092461",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-We,Sa 08:30-19:00; Th,Fr 08:30-20:00; Su 10:30-16:30",
+        "operator": "Waitrose & Partners",
+        "ref": "179",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.waitrose.com/find-a-store/enfield",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0841614,
+          51.6517074
+        ]
+      },
+      "id": "node/1640218897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1668630326",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "1B",
+        "addr:postcode": "SE2 9RQ",
+        "addr:street": "Eynsham Drive",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "694307",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/abbeywood/eynsham-drive-1b/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1190726,
+          51.4959114
+        ]
+      },
+      "id": "node/1668630326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1699816075",
+        "addr:country": "GB",
+        "addr:housenumber": "64",
+        "addr:postcode": "KT9 2HY",
+        "addr:street": "Leatherhead Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1386378",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/chessington/leatherhead-road-64/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3100315,
+          51.3604903
+        ]
+      },
+      "id": "node/1699816075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1708718478",
+        "addr:city": "London",
+        "addr:housename": "Canada Place",
+        "addr:housenumber": "16-19",
+        "addr:postcode": "E14 5EW",
+        "addr:street": "Canada Square",
+        "branch": "Canary Wharf",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "check_date": "2025-04-25",
+        "contact:phone": "+44 20 7719 0300",
+        "fhrs:id": "75876",
+        "fhrs:local_authority_id": "17803",
+        "level": "0",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Th 07:00-22:00;Sa 08:00-21:00;Su 12:00-18:00",
+        "operator": "Waitrose & Partners",
+        "payment:scan_pay_go": "yes",
+        "ref": "664",
+        "shop": "supermarket",
+        "shop2": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/canary-wharf",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0167335,
+          51.5046343
+        ]
+      },
+      "id": "node/1708718478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1799402605",
+        "brand": "Waitrose & Partners",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "name": "Little Waitrose",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/fulham-palace-rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.219429,
+          51.483934
+        ]
+      },
+      "id": "node/1799402605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1887555582",
+        "addr:city": "London",
+        "addr:housenumber": "222-224",
+        "addr:postcode": "SW16 1BB",
+        "addr:street": "Streatham High Road",
+        "addr:suburb": "Streatham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:authority": "Lambeth",
+        "fhrs:id": "483334",
+        "fhrs:inspectiondate": "2009-03-11",
+        "fhrs:rating": "5",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa 08:00-10:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/streatham/streatham-high-road-222/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1295659,
+          51.4310043
+        ]
+      },
+      "id": "node/1887555582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1896046530",
+        "addr:city": "London",
+        "addr:housenumber": "28-32",
+        "addr:postcode": "N5 1RD",
+        "addr:street": "Highbury Corner",
+        "addr:suburb": "Islington",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose",
+        "description": "This is a Little Waitrose store.",
+        "fhrs:id": "559405",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "07:00-23:00",
+        "operator": "Waitrose & Partners",
+        "phone": "+44 20 7609 6591",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.waitrose.com/find-a-store/highbury-corner",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.104305,
+          51.5469392
+        ]
+      },
+      "id": "node/1896046530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1940052292",
+        "addr:housenumber": "31",
+        "addr:postcode": "SM4 5LN",
+        "addr:street": "Aberconway Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "578966",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/morden/aberconway-road-unit-2a-29/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1937558,
+          51.4013351
+        ]
+      },
+      "id": "node/1940052292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2006375680",
+        "addr:city": "London",
+        "addr:housenumber": "35",
+        "addr:postcode": "EC2M 7AW",
+        "addr:street": "Blomfield Street",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "check_date": "2024-08-28",
+        "name": "Amazon Fresh",
+        "shop": "supermarket",
+        "source": "Local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0844427,
+          51.5179134
+        ]
+      },
+      "id": "node/2006375680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2301522009",
+        "addr:city": "Greenford",
+        "addr:country": "GB",
+        "addr:housename": "Macmillan Court",
+        "addr:housenumber": "309",
+        "addr:postcode": "UB6 9FH",
+        "addr:street": "Ruislip Road East",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108946",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/greenford/macmillan-court-ruislip-rd-east-309/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.350475,
+          51.527239
+        ]
+      },
+      "id": "node/2301522009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375236954",
+        "addr:city": "London",
+        "addr:housename": "Victoria Parade",
+        "addr:postcode": "SE10 9DD",
+        "addr:street": "New Capital Quay",
+        "air_conditioning": "yes",
+        "branch": "Greenwich",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "check_date": "2024-08-24",
+        "currency:GBP": "yes",
+        "designation": "Greenwich",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "695490",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Waitrose-BTWifi",
+        "level": "0",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "organic": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "source": "survey",
+        "source:addr": "FHRS Open Data",
+        "stroller": "yes",
+        "website": "https://www.waitrose.com/find-a-store/greenwich",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0156614,
+          51.4823225
+        ]
+      },
+      "id": "node/2375236954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2451262443",
+        "addr:city": "London",
+        "addr:housenumber": "21-29",
+        "addr:postcode": "N9 0TY",
+        "addr:street": "The Concourse",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:authority": "Enfield",
+        "fhrs:id": "317654",
+        "fhrs:local_authority_id": "PI/000160107",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/edmonton-green/the-concourse-plevna-road-23-25/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0597461,
+          51.6246547
+        ]
+      },
+      "id": "node/2451262443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2563680049",
+        "addr:city": "London",
+        "addr:housenumber": "104-120",
+        "addr:postcode": "SE13 5PT",
+        "addr:street": "Lee High Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1599197",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/lewisham/lee-high-road-104--120/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.005146,
+          51.4604134
+        ]
+      },
+      "id": "node/2563680049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2906520923",
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:housenumber": "137",
+        "addr:postcode": "UB8 2AG",
+        "addr:street": "Cowley Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "696931",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00;Su 10:00-16:00",
+        "shop": "supermarket",
+        "source": "survey",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/uxbridge/cowley-road-137/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4836689,
+          51.53523
+        ]
+      },
+      "id": "node/2906520923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2990692742",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:postcode": "NW9 8SD",
+        "addr:street": "Blackbird Hill",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "532376",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wembley/blackbird-hill-4-14/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2639412,
+          51.564695
+        ]
+      },
+      "id": "node/2990692742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3179049020",
+        "addr:city": "Greenford",
+        "addr:housename": "Westway Cross Retail Park",
+        "addr:housenumber": "1000",
+        "addr:postcode": "UB6 0UW",
+        "addr:street": "Greenford Road",
+        "addr:unit": "4",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108947",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/ealing/greenford-road-1000/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3402487,
+          51.5420925
+        ]
+      },
+      "id": "node/3179049020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3216125760",
+        "addr:city": "London",
+        "addr:housenumber": "90-94",
+        "addr:postcode": "W7 3SU",
+        "addr:street": "Uxbridge Road",
+        "addr:unit": "1",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108941",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hanwell/uxbridge-road-unit-1-90-94/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3362529,
+          51.5081155
+        ]
+      },
+      "id": "node/3216125760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3569220494",
+        "addr:city": "London",
+        "addr:housename": "Euston Tower",
+        "addr:housenumber": "286",
+        "addr:postcode": "NW1 3DP",
+        "addr:street": "Euston Road",
+        "addr:unit": "Unit 4",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "check_date": "2024-12-20",
+        "name": "Amazon Fresh",
+        "old_name": "Cycle Republic",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "shop": "supermarket",
+        "source:addr:postcode": "code-point_open"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1389014,
+          51.5255079
+        ]
+      },
+      "id": "node/3569220494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3774627180",
+        "addr:city": "London",
+        "addr:district": "Battersea",
+        "addr:housenumber": "1",
+        "addr:postcode": "SW11 7DN",
+        "addr:street": "New Union Square",
+        "alt_name": "Waitrose Battersea - Nine Elms",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "check_date": "2024-08-18",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Sa 07:30-22:00; Su 12:00-18:00",
+        "operator": "Waitrose & Partners",
+        "organic": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7622 2459",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/battersea-nine-elms",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1345287,
+          51.4825907
+        ]
+      },
+      "id": "node/3774627180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813667444",
+        "addr:city": "London",
+        "addr:housenumber": "201",
+        "addr:postcode": "EC1V 9NP",
+        "addr:street": "Old Street",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2025-03-10",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/old-street-971",
+        "fhrs:id": "1247114",
+        "fixme": "Check location along Old Street - numbering doesn't seem right.",
+        "name": "M&S Food",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 12:00-18:00",
+        "operator": "Marks and Spencer",
+        "shop": "supermarket",
+        "source:addr:postcode": "FHRS Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0899332,
+          51.5256623
+        ]
+      },
+      "id": "node/3813667444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3838023409",
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "N1C 4BZ",
+        "addr:street": "Wharf Road",
+        "alt_name": "Waitrose Kings Cross",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "check_date": "2025-03-07",
+        "fhrs:id": "912305",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 12:00-18:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.waitrose.com/find-a-store/kings-cross",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1235071,
+          51.5360857
+        ]
+      },
+      "id": "node/3838023409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4307584366",
+        "addr:city": "London",
+        "addr:housenumber": "229",
+        "addr:postcode": "SW18 5RJ",
+        "addr:street": "Wimbledon Park Road",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/southfields-foodhall-1838",
+        "fhrs:id": "1610367",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2057969,
+          51.4453634
+        ]
+      },
+      "id": "node/4307584366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366145291",
+        "addr:city": "London",
+        "addr:housename": "Plough Lane Retail Park",
+        "addr:postcode": "SW17 0BW",
+        "addr:street": "Plough Lane",
+        "addr:unit": "1",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2023-12-15",
+        "fhrs:id": "1022850",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; PH,Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/wimbledon/plough-lane//",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1849547,
+          51.4304194
+        ]
+      },
+      "id": "node/4366145291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4566929649",
+        "addr:city": "Wandsworth",
+        "addr:street": "Southside Shopping Centre",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1943398,
+          51.4556519
+        ]
+      },
+      "id": "node/4566929649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4795415648",
+        "addr:city": "London",
+        "addr:housenumber": "4",
+        "addr:postcode": "SE18 6FL",
+        "addr:street": "Victory Parade",
+        "addr:suburb": "Woolwich",
+        "branch": "Woolwich Foodhall",
+        "brand": "Marks & Spencer",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/woolwich-foodhall-1990",
+        "fhrs:id": "1096748",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-21:00; Su 12:00-18:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0706774,
+          51.491618
+        ]
+      },
+      "id": "node/4795415648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5135771797",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/greenford-foodhall-2107",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 10:00-16:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3390786,
+          51.5420387
+        ]
+      },
+      "id": "node/5135771797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5141294130",
+        "addr:city": "Croydon",
+        "addr:country": "GB",
+        "addr:housenumber": "2",
+        "addr:postcode": "CR0 4XL",
+        "addr:street": "Trojan Way",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1176079",
+        "name": "Lidl",
+        "old_name": "Fabb",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/croydon/trojan-way-purley-way/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1198445,
+          51.3739312
+        ]
+      },
+      "id": "node/5141294130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5181353523",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/hammersmith-1290",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-19:00; Su 11:00-17:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.226367,
+          51.492729
+        ]
+      },
+      "id": "node/5181353523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5319160299",
+        "addr:city": "London",
+        "addr:housename": "Gateway House",
+        "addr:housenumber": "318-320",
+        "addr:postcode": "N3 2LN",
+        "addr:street": "Regent's Park Road",
+        "brand": "Waitrose & Partners",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "name": "Little Waitrose",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "John Lewis Partnership",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/finchley-central",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1949205,
+          51.6000852
+        ]
+      },
+      "id": "node/5319160299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352808140",
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "E17 7JR",
+        "addr:street": "Selborne Walk",
+        "addr:suburb": "Walthamstow",
+        "addr:unit": "Unit 57",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1025296",
+        "fhrs:local_authority_id": "340679",
+        "name": "Lidl",
+        "old_name": "BHS",
+        "opening_hours": "Mo-Sa 07:00-22:00, Su 11:00-17:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/walthamstow/selborne-walk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0222858,
+          51.584195
+        ]
+      },
+      "id": "node/5352808140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5534218615",
+        "addr:city": "London",
+        "addr:housenumber": "88-96",
+        "addr:postcode": "N22 6HE",
+        "addr:street": "High Road",
+        "addr:unit": "Unit 8",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "422998",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00; PH 07:00-22:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wood-green/high-road-units-7-8-88-96/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.106645,
+          51.5938278
+        ]
+      },
+      "id": "node/5534218615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5576016360",
+        "name": "Little Waitrose",
+        "opening_hours": "24/7",
+        "operator": "Shell",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/ealing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.291001,
+          51.5163426
+        ]
+      },
+      "id": "node/5576016360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5678299606",
+        "addr:city": "London",
+        "addr:housenumber": "51-57",
+        "addr:postcode": "E8 2JS",
+        "addr:street": "Kingsland High Street",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "check_date": "2025-05-16",
+        "check_date:opening_hours": "2025-05-16",
+        "contact:website": "https://www.marksandspencer.com/stores/dalston-foodhall-793",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 3889 5736",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0756727,
+          51.5479875
+        ]
+      },
+      "id": "node/5678299606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5686403843",
+        "addr:city": "London",
+        "addr:housenumber": "374-378",
+        "addr:postcode": "E13 9AP",
+        "addr:street": "Green Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1516673",
+        "name": "Lidl",
+        "old_name": "Peacocks",
+        "shop": "supermarket",
+        "start_date": "2022-05",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/green-street/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0349308,
+          51.536038
+        ]
+      },
+      "id": "node/5686403843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6345933555",
+        "addr:city": "London",
+        "addr:housenumber": "889",
+        "addr:postcode": "N21 2QP",
+        "addr:street": "Green Lanes",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "name": "Waitrose",
+        "phone": "+44 20 8360 3373",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/winchmore-hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0939689,
+          51.6353261
+        ]
+      },
+      "id": "node/6345933555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6355765327",
+        "addr:city": "London",
+        "addr:housenumber": "25",
+        "addr:postcode": "SW20 0BW",
+        "addr:street": "Coombe Lane",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "building": "apartments",
+        "building:levels": "4",
+        "fhrs:id": "486406",
+        "level": "0",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-20:00; Su 10:00-16:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/raynes-park",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2333804,
+          51.4091848
+        ]
+      },
+      "id": "node/6355765327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6429327324",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/southbank-place-919",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-22:00; Su 12:00-18:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1161265,
+          51.5030908
+        ]
+      },
+      "id": "node/6429327324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6484563330",
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "90-94",
+        "addr:postcode": "W13 0SY",
+        "addr:street": "Broadway",
+        "check_date": "2025-06-05",
+        "level": "0",
+        "name": "Lidl",
+        "old_name": "Wilko",
+        "opening_hours": "Mo-Sa,PH 08:00-21:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3247831,
+          51.5101966
+        ]
+      },
+      "id": "node/6484563330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6553257206",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "level": "1",
+        "name": "Waitrose",
+        "shop": "supermarket",
+        "website": "https://www.waitrose.com/find-a-store/brent-cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2226177,
+          51.5773482
+        ]
+      },
+      "id": "node/6553257206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6576751662",
+        "addr:housenumber": "133",
+        "addr:street": "Kensington High Street",
+        "branch": "Kensington",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "name": "Amazon Fresh",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1942934,
+          51.5007658
+        ]
+      },
+      "id": "node/6576751662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6733456785",
+        "addr:city": "London",
+        "addr:housenumber": "142-170",
+        "addr:postcode": "SW2 4RU",
+        "addr:suburb": "Streatham Hill",
+        "addr:unit": "4",
+        "brand": "Marks & Spencer",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/streatham-hill-foodhall-2112",
+        "fhrs:id": "1009672",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1264305,
+          51.4393675
+        ]
+      },
+      "id": "node/6733456785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178906836",
+        "addr:city": "London",
+        "addr:housenumber": "2",
+        "addr:postcode": "W13 0NL",
+        "addr:street": "Alexandria Road",
+        "addr:suburb": "West Ealing",
+        "amenity": "cafe",
+        "brand": "Waitrose",
+        "cuisine": "coffee_shop",
+        "fhrs:id": "1032735",
+        "level": "0",
+        "name": "Waitrose & Partners",
+        "outdoor_seating": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3218211,
+          51.5127964
+        ]
+      },
+      "id": "node/7178906836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7476019327",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Greenwich Shopping Park",
+        "addr:postcode": "SE7 7SR",
+        "addr:street": "Bugsby's Way",
+        "addr:suburb": "Charlton",
+        "addr:unit": "12",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2023-08-01",
+        "fhrs:id": "1223642",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/charlton/bugsbys-way/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.024692,
+          51.4895852
+        ]
+      },
+      "id": "node/7476019327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7947493943",
+        "air_conditioning": "yes",
+        "brand": "Marks & Spencer",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/streatham-high-road-foodhall-2119",
+        "currency:GBP": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "level": "0",
+        "name": "M&S Food",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 11:00-17:00",
+        "organic": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "source": "survey",
+        "stroller": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1316699,
+          51.4260304
+        ]
+      },
+      "id": "node/7947493943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8094461882",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "411",
+        "addr:postcode": "SE19 3HD",
+        "addr:street": "Beulah Hill",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1159954",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/norwood/beulah-hill/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1069023,
+          51.4222272
+        ]
+      },
+      "id": "node/8094461882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8529268156",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:postcode": "HA9 0HP",
+        "addr:street": "Wembley Park Boulevard",
+        "addr:unit": "3",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "brand:wikipedia": "en:Amazon Fresh",
+        "name": "Amazon Fresh",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2818909,
+          51.5573287
+        ]
+      },
+      "id": "node/8529268156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8577081916",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "180-214",
+        "addr:postcode": "SW17 7EW",
+        "addr:street": "Upper Tooting Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "1572263",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/tooting/upper-tooting-road/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1647051,
+          51.4314498
+        ]
+      },
+      "id": "node/8577081916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8758968673",
+        "addr:city": "London",
+        "addr:housenumber": "4",
+        "addr:postcode": "E14 5GX",
+        "addr:street": "Water Street",
+        "addr:unit": "Unit A2.1",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "fhrs:id": "1711681",
+        "name": "Amazon Fresh",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0151746,
+          51.5028153
+        ]
+      },
+      "id": "node/8758968673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8879524885",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "The Tandem Centre",
+        "addr:postcode": "SW19 2TY",
+        "addr:street": "Tandem Way",
+        "addr:unit": "6,7",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1270475",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/colliers-wood/tandem-way/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17607,
+          51.4137249
+        ]
+      },
+      "id": "node/8879524885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9005347089",
+        "addr:country": "GB",
+        "addr:housenumber": "1",
+        "addr:postcode": "SM6 7DS",
+        "addr:street": "Spinning Wheel Way",
+        "air_conditioning": "yes",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1320539",
+        "name": "Lidl",
+        "note": "Lidl store. Surface level, beneath Chambray House, alongside the Lidl customer only car park, accessed from Spinning Wheel Way.",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/hackbridge/spinning-wheel-way/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1554407,
+          51.3780012
+        ]
+      },
+      "id": "node/9005347089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9217926517",
+        "addr:country": "GB",
+        "addr:postcode": "DA17 6FD",
+        "addr:street": "Clydesdale Way",
+        "alt_name": "Lidl Belvedere",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1104872",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "survey:date": "2019-04-03",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/belvedere/exmoor-house-clydesdale-way/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.15652,
+          51.49694
+        ]
+      },
+      "id": "node/9217926517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223751624",
+        "addr:city": "Croydon",
+        "addr:country": "GB",
+        "addr:postcode": "CR0 0JA",
+        "addr:street": "Parkway",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "563370",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "survey:date": "2019-07-01",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/new-addington/parkway/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0197393,
+          51.3464213
+        ]
+      },
+      "id": "node/9223751624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223751840",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "The Arts Building",
+        "addr:housenumber": "2",
+        "addr:postcode": "N4 3JG",
+        "addr:street": "Morris Place",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1403339",
+        "level": "0",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "start_date": "2021-06-29",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/morris-place/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1076062,
+          51.5661126
+        ]
+      },
+      "id": "node/9223751840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223766101",
+        "addr:city": "London",
+        "addr:housename": "The Oaks Shopping Centre",
+        "addr:postcode": "W3 6RE",
+        "addr:street": "High Street",
+        "addr:unit": "4",
+        "brand": "Lidl",
+        "brand:website": "https://www.lidl.co.uk/",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108943",
+        "name": "Lidl",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "survey:date": "2020-07-23",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/acton/ealing/high-street/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2699911,
+          51.5073863
+        ]
+      },
+      "id": "node/9223766101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223793964",
+        "addr:city": "Ilford",
+        "addr:country": "GB",
+        "addr:housenumber": "261-275",
+        "addr:postcode": "IG1 1NJ",
+        "addr:street": "High Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2025-05-25",
+        "fhrs:id": "443451",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/ilford/ilford-retail-park-high-road-unit-3-261-275/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.078896,
+          51.5606
+        ]
+      },
+      "id": "node/9223793964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223797322",
+        "addr:city": "London",
+        "addr:housename": "Kings Mall Shopping Centre",
+        "addr:postcode": "W6 9HW",
+        "addr:street": "King Street",
+        "addr:unit": "1",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2025-04-09",
+        "fhrs:id": "1334503",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hammersmith/kings-mall-shopping-centre-king-street/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2275114,
+          51.4932003
+        ]
+      },
+      "id": "node/9223797322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9325741425",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "brand:wikipedia": "en:Amazon Fresh",
+        "fhrs:id": "1738640",
+        "name": "Amazon Fresh",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35396,
+          51.4710493
+        ]
+      },
+      "id": "node/9325741425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9352895797",
+        "addr:city": "London",
+        "addr:housename": "Goodmans Fields",
+        "addr:postcode": "E1 8PU",
+        "addr:street": "Leman Street",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "brand:wikipedia": "en:Amazon Fresh",
+        "fhrs:id": "1474725",
+        "name": "Amazon Fresh",
+        "opening_hours": "Mo-Su 07:00-23:00; Dec 25-26 off; Dec 27 09:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0701403,
+          51.5135103
+        ]
+      },
+      "id": "node/9352895797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9386120544",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "brand:wikipedia": "en:Marks & Spencer",
+        "check_date": "2024-04-13",
+        "currency:GBP": "yes",
+        "level": "0",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-19:00; Su 10:30-16:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "source": "survey",
+        "stroller": "yes",
+        "website": "https://www.marksandspencer.com/stores/orpington-nugent-park-4747",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1129539,
+          51.3936386
+        ]
+      },
+      "id": "node/9386120544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9405520532",
+        "addr:housenumber": "4",
+        "addr:street": "Bishops Walk",
+        "name": "M&S Foodhall",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3811969,
+          51.5941553
+        ]
+      },
+      "id": "node/9405520532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9419039791",
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "W2 6ES",
+        "addr:street": "Porchester Road",
+        "alt_name": "Waitrose Bayswater",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "entrance": "shop",
+        "fhrs:confidence_management": "0",
+        "fhrs:hygiene": "5",
+        "fhrs:id": "411125",
+        "fhrs:local_authority_id": "00189/0038/1/000",
+        "fhrs:rating": "5",
+        "fhrs:structural": "5",
+        "level": "0",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Sa 07:30-22:00; Su 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "shop": "supermarket",
+        "source:addr": "FSA Food Hygiene Ratings Database",
+        "source:postcode": "FSA Food Hygiene Ratings Database",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1874061,
+          51.5165828
+        ]
+      },
+      "id": "node/9419039791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9519425869",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "contact:website": "https://www.marksandspencer.com/stores/finsbury-park-1007",
+        "name": "M&S Food",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 12:00-18:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.107621,
+          51.5647362
+        ]
+      },
+      "id": "node/9519425869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9661813418",
+        "addr:city": "London",
+        "addr:housenumber": "1.1A",
+        "addr:postcode": "W12 7NP",
+        "addr:street": "Fountain Park Way",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "brand:wikipedia": "en:Amazon Fresh",
+        "level": "0",
+        "name": "Amazon Fresh",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2230555,
+          51.5110352
+        ]
+      },
+      "id": "node/9661813418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9665638027",
+        "addr:city": "Uxbridge",
+        "addr:place": "The Chimes",
+        "addr:postcode": "UB8 1GB",
+        "addr:street": "High Street",
+        "addr:unit": "212,213",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1436921",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/uxbridge/high-street/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4767332,
+          51.5457579
+        ]
+      },
+      "id": "node/9665638027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9805131748",
+        "addr:city": "London",
+        "addr:housenumber": "269-271",
+        "addr:postcode": "N4 2DF",
+        "addr:street": "Seven Sisters Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "designation": "Finsbury Park London",
+        "fhrs:id": "423386",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 10:00-19:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/finsbury-park/seven-sisters-road-269-271/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1044227,
+          51.5650332
+        ]
+      },
+      "id": "node/9805131748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9979753893",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 10:30-16:30",
+        "shop": "supermarket",
+        "website": "https://www.marksandspencer.com/stores/west-wickham-simply-food-7498"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0190978,
+          51.3767608
+        ]
+      },
+      "id": "node/9979753893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10209153520",
+        "addr:city": "London",
+        "addr:housenumber": "5",
+        "addr:postcode": "SW8 5BN",
+        "addr:street": "Lumen Lane",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "check_date": "2025-01-02",
+        "check_date:opening_hours": "2024-07-21",
+        "level": "-1",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 12:00-18:00",
+        "shop": "supermarket",
+        "website": "https://www.marksandspencer.com/stores/battersea-power-station-1633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1444133,
+          51.4808628
+        ]
+      },
+      "id": "node/10209153520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10281454554",
+        "brand": "M&S Foodhall",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "name": "M&S Foodhall",
+        "opening_hours": "Mo-Sa 08:30-19:30; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.marksandspencer.com/stores/colindale-foodhall-1964"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2621248,
+          51.5943526
+        ]
+      },
+      "id": "node/10281454554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10298319073",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "check_date": "2024-07-21",
+        "check_date:opening_hours": "2024-07-21",
+        "level": "-3",
+        "name": "M&S Food",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 12:00-18:00",
+        "shop": "supermarket",
+        "website": "https://www.marksandspencer.com/stores/canary-wharf-crossrail-sf-979",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0173163,
+          51.5060815
+        ]
+      },
+      "id": "node/10298319073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10692756229",
+        "addr:city": "Richmond",
+        "addr:housenumber": "4-10",
+        "addr:postcode": "TW9 1AE",
+        "addr:street": "Sheen Road",
+        "alt_name": "Waitrose Richmond",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "brand:wikipedia": "en:Waitrose & Partners",
+        "check_date": "2024-07-06",
+        "fhrs:id": "1574154",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-20:00; Su 11:00-17:00",
+        "operator": "Waitrose & Partners",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.waitrose.com/find-a-store/richmond"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.301844,
+          51.4613659
+        ]
+      },
+      "id": "node/10692756229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10775457925",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "check_date": "2025-03-10",
+        "internet_access": "wlan",
+        "name": "Amazon Fresh",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0745071,
+          51.5301212
+        ]
+      },
+      "id": "node/10775457925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11304759841",
+        "addr:city": "Wembley",
+        "addr:housename": "Lidl",
+        "addr:postcode": "HA0 4PE",
+        "addr:street": "Ealing Rd",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1596909",
+        "name": "Lidl",
+        "phone": "+44 20 3966 5566",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/brent/ealing-road/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2995099,
+          51.5399531
+        ]
+      },
+      "id": "node/11304759841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795539295",
+        "addr:city": "London",
+        "addr:postcode": "W3 7XX",
+        "addr:street": "Western Avenue",
+        "brand:wikidata": "Q151954",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:google_pay": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wikidata": "Q151954"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.249449,
+          51.5135381
+        ]
+      },
+      "id": "node/11795539295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12048856183",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "name": "Amazon Fresh",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0939023,
+          51.3763464
+        ]
+      },
+      "id": "node/12048856183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12168431706",
+        "check_date": "2024-09-10",
+        "name": "M&S Food",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1381359,
+          51.5151363
+        ]
+      },
+      "id": "node/12168431706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12246322319",
+        "brand": "Waitrose",
+        "brand:wikidata": "Q771734",
+        "name": "Waitrose",
+        "official_name": "Waitrose & Partners",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1980595,
+          51.4990873
+        ]
+      },
+      "id": "node/12246322319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12278605270",
+        "addr:city": "London",
+        "addr:housenumber": "19-23",
+        "addr:postcode": "E16 1DT",
+        "addr:street": "Minnie Baldock Street",
+        "addr:suburb": "Canning Town",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2025-05-26",
+        "fhrs:id": "1795612",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00;Su 11:00-17:00",
+        "shop": "supermarket",
+        "start_date": "2025-02-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0104808,
+          51.5144206
+        ]
+      },
+      "id": "node/12278605270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12426031528",
+        "brand": "Amazon Fresh",
+        "brand:wikidata": "Q4740834",
+        "name": "Amazon Fresh",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1909564,
+          51.548698
+        ]
+      },
+      "id": "node/12426031528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12453246501",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2025-05-17",
+        "check_date:opening_hours": "2025-05-17",
+        "fhrs:id": "1545261",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/hounslow/hayes-road/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4043683,
+          51.4983335
+        ]
+      },
+      "id": "node/12453246501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12488612335",
+        "addr:city": "London",
+        "addr:housenumber": "66-68",
+        "addr:postcode": "W11 3HT",
+        "addr:street": "Notting Hill Gate",
+        "branch": "Notting Hill Gate",
+        "brand": "Amazon Fresh",
+        "name": "Amazon Fresh",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1958982,
+          51.509294
+        ]
+      },
+      "id": "node/12488612335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12572476237",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2024-10-16",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/56-60-&-64-denmark-hill/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0933302,
+          51.472726
+        ]
+      },
+      "id": "node/12572476237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12846794693",
+        "addr:floor": "G",
+        "check_date": "2025-05-18",
+        "level": "0",
+        "name": "M&S Food",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3019467,
+          51.5147818
+        ]
+      },
+      "id": "node/12846794693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12926161341",
+        "brand": "Marks & Spencer",
+        "brand:short": "M&S",
+        "brand:wikidata": "Q714491",
+        "check_date": "2025-06-19",
+        "name": "M&S Food",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0799827,
+          51.4615449
+        ]
+      },
+      "id": "node/12926161341"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-07-06T19:15:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/246116024",
+        "addr:city": "London",
+        "addr:housename": "South Clapham Hospital",
+        "addr:housenumber": "128",
+        "addr:postcode": "SW4 9DF",
+        "addr:street": "Clapham Common South Side",
+        "alt_name": "Tesco Clapham Superstore",
+        "brand": "Tesco",
+        "brand:wikidata": "Q487494",
+        "brand:wikipedia": "en:Tesco",
+        "check_date": "2023-08-29",
+        "contact:website": "https://www.tesco.com/store-locator/london/128-clapham-common-south-side",
+        "fhrs:id": "483345",
+        "name": "Tesco",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1462284,
+          51.4536317
+        ]
+      },
+      "id": "node/246116024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/387432650",
+        "addr:city": "Kent",
+        "addr:country": "GB",
+        "addr:housenumber": "13-15",
+        "addr:postcode": "DA6 8DZ",
+        "addr:street": "Crook Log",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "contact:facebook": "https://www.facebook.com/asdabexleyheathcrooklog/",
+        "contact:twitter": "asda",
+        "contact:website": "https://storelocator.asda.com/london/bexleyheath/13/15-crook-log",
+        "fhrs:id": "580849",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-16:00",
+        "operator": "Asda Stores Ltd",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.130167,
+          51.4582491
+        ]
+      },
+      "id": "node/387432650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/597237387",
+        "addr:city": "Romford",
+        "addr:housenumber": "316-318",
+        "addr:postcode": "RM5 3NL",
+        "addr:street": "Collier Row Lane",
+        "branch": "Romford Collier Row Metro",
+        "brand": "Tesco",
+        "brand:wikidata": "Q487494",
+        "contact:website": "https://www.tesco.com/store-locator/romford/316-collier-row-ln",
+        "fhrs:authority": "Havering",
+        "fhrs:id": "373967",
+        "fhrs:local_authority_id": "9249",
+        "name": "Tesco",
+        "operator": "Tesco",
+        "ref": "2297",
+        "shop": "supermarket",
+        "source": "http://www.tesco.com/storeLocator/default.asp?bID=2297",
+        "source:addr": "FHRS Open Data",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1639417,
+          51.598887
+        ]
+      },
+      "id": "node/597237387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1716036953",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "19",
+        "addr:postcode": "E17 7JR",
+        "addr:street": "Selborne Walk",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2024-08-18",
+        "check_date:opening_hours": "2024-08-18",
+        "contact:facebook": "https://www.facebook.com/asdawalthamstow/",
+        "contact:phone": "+44 20 8509 7700",
+        "contact:twitter": "asda",
+        "contact:website": "https://storelocator.asda.com/london/walthamstow/19-selborne-walk-shopping-centre",
+        "fhrs:id": "515002",
+        "level": "0",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "operator": "Asda Stores Ltd",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes",
+        "wheelchair:description": "The store is located within a mall. This mall is also wheelchair accessible."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0247563,
+          51.5828635
+        ]
+      },
+      "id": "node/1716036953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2326315391",
+        "addr:city": "Ilford",
+        "addr:housenumber": "796",
+        "addr:postcode": "IG6 1HY",
+        "addr:street": "Cranbrook Road",
+        "brand": "Tesco",
+        "brand:wikidata": "Q487494",
+        "brand:wikipedia": "en:Tesco",
+        "changing_table": "yes",
+        "contact:website": "https://www.tesco.com/store-locator/ilford/796-cranbrook-road",
+        "name": "Tesco",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "phone": "+44 345 6779038",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.082181,
+          51.5859108
+        ]
+      },
+      "id": "node/2326315391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138276750",
+        "addr:city": "Enfield",
+        "addr:country": "GB",
+        "addr:housenumber": "67",
+        "addr:postcode": "EN3 4EF",
+        "addr:street": "High Street",
+        "addr:unit": "4",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2024-08-18",
+        "check_date:opening_hours": "2024-08-18",
+        "contact:facebook": "https://www.facebook.com/asdapondersend/",
+        "contact:twitter": "asda",
+        "contact:website": "https://storelocator.asda.com/london/enfield/67-high-street-ponders-end",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "operator": "Asda Stores Ltd",
+        "shop": "supermarket",
+        "source": "photo survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0460313,
+          51.6416535
+        ]
+      },
+      "id": "node/3138276750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152358847",
+        "addr:city": "London",
+        "addr:housenumber": "19",
+        "addr:postcode": "N13 4YD",
+        "addr:street": "Alderman's Hill",
+        "brand": "Morrisons",
+        "brand:wikidata": "Q922344",
+        "brand:wikipedia": "en:Morrisons",
+        "fhrs:id": "316031",
+        "name": "Morrisons",
+        "operator": "Morrisons",
+        "phone": "+44 20 8886 6358",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://my.morrisons.com/storefinder/305/palmers-green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1105006,
+          51.6175918
+        ]
+      },
+      "id": "node/3152358847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3883368417",
+        "addr:city": "Barking",
+        "addr:country": "GB",
+        "addr:housename": "Genoa Building",
+        "addr:housenumber": "2",
+        "addr:postcode": "IG11 8FJ",
+        "addr:street": "Short Blue Place",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2024-08-18",
+        "check_date:opening_hours": "2024-08-18",
+        "contact:facebook": "https://www.facebook.com/asdabarking/",
+        "contact:twitter": "asda",
+        "contact:website": "https://storelocator.asda.com/london/barking/genoa-building-2-short-blue-place",
+        "fhrs:id": "847353",
+        "fhrs:local_authority_id": "66434",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "operator": "Asda Stores Ltd",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0772175,
+          51.5372955
+        ]
+      },
+      "id": "node/3883368417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4303522368",
+        "brand": "Morrisons",
+        "brand:wikidata": "Q922344",
+        "brand:wikipedia": "en:Morrisons",
+        "check_date": "2024-12-18",
+        "level": "0",
+        "name": "Morrisons",
+        "shop": "supermarket",
+        "website": "https://my.morrisons.com/storefinder/205/ealing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3040427,
+          51.5135148
+        ]
+      },
+      "id": "node/4303522368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5007757613",
+        "addr:housenumber": "31",
+        "addr:street": "Cowley road",
+        "brand": "Tesco",
+        "brand:wikidata": "Q487494",
+        "check_date": "2025-05-01",
+        "contact:website": "https://www.tesco.com/store-locator/london/31-the-vale",
+        "description": "Tesco supermarket with groceries, home supplies, drinks, cigarettes, greeting cards etc.",
+        "fhrs:id": "1032895",
+        "name": "Tesco",
+        "name:fa": "تسکو مترو",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "phone": "+44 345 671 9376",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2491087,
+          51.5064825
+        ]
+      },
+      "id": "node/5007757613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6143757027",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Lindsay Court",
+        "addr:postcode": "SE13 7LL",
+        "addr:street": "Loampit Vale",
+        "addr:suburb": "Lewisham",
+        "addr:unit": "1,2",
+        "alt_name": "ASDA Lewisham",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2024-08-18",
+        "check_date:opening_hours": "2024-08-18",
+        "contact:facebook": "https://www.facebook.com/asdalewisham/",
+        "contact:twitter": "asda",
+        "currency:GBP": "yes",
+        "fhrs:id": "1599600",
+        "level": "0",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 06:00-23:00; Su 11:00-17:00",
+        "operator": "Asda Stores Ltd",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 3198 3081",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "stroller": "yes",
+        "website": "https://storelocator.asda.com/london/lewisham/unit-1-and-2-thurston-point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0165929,
+          51.4651052
+        ]
+      },
+      "id": "node/6143757027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7419127852",
+        "addr:city": "Isleworth",
+        "addr:country": "GB",
+        "addr:housename": "Ivybridge Retail Park",
+        "addr:postcode": "TW7 7DY",
+        "addr:street": "Twickenham Road",
+        "addr:unit": "1",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2024-08-18",
+        "check_date:opening_hours": "2024-08-18",
+        "contact:facebook": "https://www.facebook.com/asda/",
+        "contact:twitter": "asda",
+        "contact:website": "https://storelocator.asda.com/london/twickenham/ivy-bridge-retail-park-twickenham-rd",
+        "fhrs:id": "490556",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "operator": "Asda Stores Ltd",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.331819,
+          51.4591272
+        ]
+      },
+      "id": "node/7419127852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7661179394",
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:postcode": "E16 1GW",
+        "addr:street": "Silvertown Square",
+        "brand": "Morrisons",
+        "brand:wikidata": "Q922344",
+        "brand:wikipedia": "en:Morrisons",
+        "check_date": "2025-05-26",
+        "fhrs:id": "919446",
+        "name": "Morrisons",
+        "shop": "supermarket",
+        "website": "https://my.morrisons.com/storefinder/191/canning-town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0104157,
+          51.5149975
+        ]
+      },
+      "id": "node/7661179394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7780870532",
+        "addr:city": "Hounslow",
+        "addr:country": "GB",
+        "addr:housename": "The Blenheim Centre",
+        "addr:postcode": "TW3 1NL",
+        "addr:street": "Prince Regent Road",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2024-08-18",
+        "check_date:opening_hours": "2024-08-18",
+        "fhrs:id": "490362",
+        "name": "Asda",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa 06:00-22:00; Su 11:00-17:00",
+        "operator": "Asda",
+        "phone": "+44 20 8607 1010",
+        "shop": "supermarket",
+        "website": "https://storelocator.asda.com/london/hounslow/access-from-high-street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3612375,
+          51.4710255
+        ]
+      },
+      "id": "node/7780870532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10780233403",
+        "addr:city": "London",
+        "addr:housenumber": "281",
+        "addr:postcode": "SE11 5QU",
+        "addr:street": "Kennington Lane",
+        "brand": "Tesco",
+        "brand:wikidata": "Q487494",
+        "check_date": "2025-05-05",
+        "check_date:opening_hours": "2025-05-05",
+        "fhrs:id": "484167",
+        "name": "Tesco",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "website": "https://www.tesco.com/store-locator/london/kennington-lane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1150326,
+          51.4867902
+        ]
+      },
+      "id": "node/10780233403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231120233",
+        "brand": "Morrisons",
+        "brand:wikidata": "Q922344",
+        "check_date": "2025-02-22",
+        "name": "Morrisons",
+        "shop": "supermarket",
+        "website": "https://my.morrisons.com/storefinder/382/brentford-waterside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30875,
+          51.4826743
+        ]
+      },
+      "id": "node/11231120233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532983506",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "5-9",
+        "addr:postcode": "SE8 4AD",
+        "addr:street": "Deptford High Street",
+        "alt_name": "ASDA Deptford",
+        "brand": "Asda",
+        "brand:wikidata": "Q297410",
+        "brand:wikipedia": "en:Asda",
+        "check_date": "2025-06-03",
+        "check_date:opening_hours": "2024-08-18",
+        "contact:facebook": "https://www.facebook.com/asdadeptford/",
+        "contact:phone": "+44 20 3794 7420",
+        "contact:twitter": "asda",
+        "contact:website": "https://storelocator.asda.com/london/deptford/5-9-deptford-high-street",
+        "fhrs:id": "1599431",
+        "name": "Asda",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "operator": "Asda Stores Ltd",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0262071,
+          51.4752446
+        ]
+      },
+      "id": "node/12532983506"
+    }
+  ]
+}

@@ -2,50 +2,71 @@
 import { useMemo } from 'react'
 import * as turf from '@turf/turf'
 
-// London's bounding box
-const LONDON_BBOX: turf.BBox = [
-  -0.5631, // west
-  51.2613, // south
-  0.2800,  // east
-  51.6860, // north
-]
+type POIs = {
+  tubeStops: turf.FeatureCollection<turf.Point> | null
+  fav:       turf.FeatureCollection<turf.Point> | null
+  big:       turf.FeatureCollection<turf.Point> | null
+}
+type Weights = {
+  tube: number
+  fav:  number
+  big:  number
+}
+
+// Precompute this once at 500 m resolution (≈0.5 km)
+const BASE_GRID = turf.squareGrid(
+  [-0.5631, 51.2613, 0.2800, 51.6860],
+  0.5,
+  { units: 'kilometers' }
+)
 
 /**
- * Returns a squareGrid (1 km cells) where each feature has:
- * { score: 0–1, distance: km, hasPOI: boolean }
+ * Returns a scored FeatureCollection of the same geometry as BASE_GRID,
+ * but with per-cell props: { score, distance: {…}, hasPOI: {…} }
  */
-export function useScores(
-  tubeStops: turf.FeatureCollection<turf.Point> | null,
-  weight: number
-) {
+export function useScores(pois: POIs, w: Weights) {
   return useMemo(() => {
-    if (!tubeStops) return null
+    const { tubeStops, fav, big } = pois
+    if (!tubeStops || !fav || !big) return null
 
-    // 1. 100 m squares
-    const grid = turf.squareGrid(LONDON_BBOX, 1, { units: 'kilometers' })
+    // Clone & score the base grid
+    const grid: turf.FeatureCollection<turf.Polygon> = {
+      type: 'FeatureCollection',
+      features: BASE_GRID.features.map((cell) => {
+        const center = turf.centerOfMass(cell)
 
-    // 2. Tag & score each cell
-    grid.features = grid.features.map((cell) => {
-      const center = turf.centerOfMass(cell)
-      const nearest = turf.nearestPoint(center, tubeStops)
-      const dist = turf.distance(center, nearest, { units: 'kilometers' })
+        function scoreCat(
+          fc: turf.FeatureCollection<turf.Point>,
+        ) {
+          const inside = turf.pointsWithinPolygon(fc, cell).features.length > 0
+          if (inside) return { raw: 1, dist: 0, has: true }
 
-      // any station inside this cell?
-      const ptsInside = turf.pointsWithinPolygon(tubeStops, cell)
-      const hasPOI = ptsInside.features.length > 0
+          const nearest = turf.nearestPoint(center, fc)
+          const dist = turf.distance(center, nearest, { units: 'kilometers' })
+          const raw  = 1 - Math.min(dist, 5) / 5
+          return { raw, dist, has: false }
+        }
 
-      // raw score: cap at 5 km
-      const capped = Math.min(dist, 5)
-      const raw = 1 - capped / 5      // 1 @ 0 km, 0 @ ≥5 km
-      const score = raw * (weight / 100)
+        const t = scoreCat(tubeStops)
+        const f = scoreCat(fav)
+        const b = scoreCat(big)
 
-      return turf.feature(cell.geometry, {
-        score,
-        distance: dist,
-        hasPOI,
-      })
-    })
+        // Weighted average of the three categories
+        const totalW = (w.tube + w.fav + w.big) / 100 || 1
+        const combined =
+          (t.raw * (w.tube / 100) +
+           f.raw * (w.fav   / 100) +
+           b.raw * (w.big   / 100)) /
+          totalW
+
+        return turf.feature(cell.geometry, {
+          score:    combined,
+          distance: { tube: t.dist, fav: f.dist, big: b.dist },
+          hasPOI:   { tube: t.has,  fav: f.has,  big: b.has },
+        })
+      }),
+    }
 
     return grid
-  }, [tubeStops, weight])
+  }, [pois, w])
 }
