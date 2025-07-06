@@ -1,12 +1,16 @@
 // src/components/Map.tsx
 'use client'
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import React, { useEffect, useState } from 'react'
+import {
+  MapContainer,
+  TileLayer,
+  GeoJSON,
+} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import { useEffect } from 'react'
 
-// fix leaflet’s default icon paths
+// fix Leaflet’s default icon URLs
 delete L.Icon.Default.prototype._getIconUrl
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
@@ -15,8 +19,14 @@ L.Icon.Default.mergeOptions({
 })
 
 export default function Map() {
-  // noop effect so this is purely client-side
-  useEffect(() => {}, [])
+  const [tubeStops, setTubeStops] = useState<any>(null)
+
+  useEffect(() => {
+    fetch('/data/tube-stops.geojson')
+      .then(res => res.json())
+      .then(setTubeStops)
+      .catch(console.error)
+  }, [])
 
   return (
     <MapContainer
@@ -28,9 +38,19 @@ export default function Map() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="© OpenStreetMap contributors"
       />
-      <Marker position={[51.5074, -0.1278]}>
-        <Popup>London</Popup>
-      </Marker>
+
+      {tubeStops && (
+        <GeoJSON
+          data={tubeStops}
+          pointToLayer={(_, latlng) =>
+            L.circleMarker(latlng, { radius: 4 })
+          }
+          onEachFeature={(feature, layer) => {
+            const name = (feature.properties as any)?.name
+            if (name) layer.bindPopup(name)
+          }}
+        />
+      )}
     </MapContainer>
   )
 }
